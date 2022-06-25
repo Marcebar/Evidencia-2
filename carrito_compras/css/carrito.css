@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans;
+    color: #fff;
+}
+.navbar{
+    background-color: transparent;
+    background-color: rgb(51, 51, 51, 0.602);
+    border-radius: 20px;
+}
+
+body {
+    
+    align-items: center;
+    justify-content: center;
+    background-image:url(../imagenes1/blur-restaurant-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+.p1{
+    padding-left: 20px;
+}
+.p2{
+    padding-left: 20px;
+}
+
+p{
+   padding:10px;
+   font-size:30px;
+}
+.nav {
+   text-align: center;
+   list-style: none;
+   
+}
+
+.nav-item{
+    text-decoration: none;
+}
+.nav li a {
+    display: inline-block;
+    position: relative;
+    
+}
+
+.tabla {
+    font-family: cursive;
+}
+img:hover {
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+}
+.tabla th{
+    padding: 10px;
+}
+.tabla tr {
+    border-bottom:dotted;
+}
+
+.tabla img {
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.tabla .carrito{
+    border-radius: 0px;
+}
+.nav {
+    list-style: none;
+    padding: 0;
+    background: #09232700;  
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+   /*text-align: center;
+   list-style: none;
+   display: inline-block;
+    text-align: center;*/
+   
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.nav li a:hover{
+    background: #ef8354;
+    border-radius: 100px;
+    -webkit-transform:scale(1.1);transform:scale(1.1);
+    transition-duration: 900ms;
+}
+.nav li{
+    display: inline-block;
+    text-align: left;
+
+}
+
+.nav-item{
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+}
